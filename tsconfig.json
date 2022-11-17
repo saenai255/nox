@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "lib": ["ESNext"],
+        "target": "ESNext",
+        "moduleResolution": "Node",
+        "module": "CommonJS",
+        "outDir": "dist",
+        "declaration": true
+    }
+}

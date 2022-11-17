@@ -1,0 +1,25 @@
+{
+  "name": "nox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc -p . && mkdir -p dist/store"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.0",
+    "@types/node": "^18.11.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-progress": "^3.11.2",
+    "minizlib": "^2.1.2",
+    "node-stream-zip": "^1.15.0",
+    "nodejs-file-downloader": "^4.10.2"
+  }
+}
